@@ -1,3 +1,3 @@
 # rstuff
 
-Just some work related stuff that I wrote in R.
+Work with Ulrich Steiner on bacteria data
