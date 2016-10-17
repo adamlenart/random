@@ -244,9 +244,6 @@ Repeat the analysis without a break
     ## (Intercept)    0.29438
     ## deathYear      0.26201
 
-    ## jack
-
-    ## jack
 
 and compare it with the trend break in 1995.
 
@@ -282,9 +279,7 @@ and compare it with the trend break in 1995.
     ## post1995yes              0.38823    0.69784
     ## deathYear:post1995yes   -0.38282    0.70185
 
-    ## jack
 
-    ## jack
 
 Unfortunately the `quantreg` package does not provide an AIC or Anova
 method for the conditional quantile regression class, so we are left to
@@ -442,19 +437,6 @@ Summaries
     ## post1995yes              6.90747    0.00000
     ## deathYear:post1995yes   -6.78266    0.00000
 
-    ## jack
-
-    ## jack
-
-    ## jack
-
-    ## jack
-
-    ## jack
-
-    ## jack
-
-    ## jack
 
 References
 ----------
