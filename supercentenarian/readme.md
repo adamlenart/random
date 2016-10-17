@@ -140,8 +140,8 @@ As we can see, the post-1995 regression line very much influenced by
 Jeanna Calment and Dorothy Baldwin whose maximum age at death in 2014 is
 the only recorded death in 2014 as well.
 
-Full sample, taking survivors into account
-------------------------------------------
+Reanalysis: Full sample, taking survivors into account
+------------------------------------------------------
 
 The approach above misses the crucial information that the maximums
 arise of different sized samples who were exposed to the risk of death
@@ -159,6 +159,8 @@ subjective to randomness, and a more promising approach is to look at
 the whole distribution of the extremes, similarly to the suggestion of
 [Daniel
 Wells](https://cdn.rawgit.com/daniel-wells/human-lifespan-limit/master/age-limit-analysis.nb.html).
+
+### Conditional quantile regression
 
 Instead of a linear regression which fails to take the survivors into
 account, a conditional quantile regression seem to be a better choice.
