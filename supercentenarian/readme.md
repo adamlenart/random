@@ -1,4 +1,9 @@
 
+# Robust statistics show no evidence of limit to human lifespan
+
+Dong, Milholland, and Vijg (2016) argue that human lifespan is limited. They base their analysis on supercentenarian data collected by the Gerontology Research Group which can be reached at www.grg.org. First, let's recreate their data and their analysis. 
+
+
     library(XML)
     library(stringr)
     library(ggplot2)
@@ -7,8 +12,6 @@
     library(survival)
     library(quantreg)
     library(tidyr)
-
-The Gerontology Research Group data can be reached at www.grg.org.
 
     # ---------------------- Create data ------------------- #
 
@@ -43,6 +46,7 @@ The Gerontology Research Group data can be reached at www.grg.org.
     dat$deathDate <- deathDate
     dat2$deathDatePX <- as.POSIXlt(deathDate)
     dat2$deathYear <- dat2$deathDatePX$year+1900
+   
 
 Based on this data, Dong, Milholland, and Vijg (2016) argue that human
 life expectancy is limited because if they fit a linear regression to
