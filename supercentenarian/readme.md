@@ -33,11 +33,8 @@ Dong, Milholland, and Vijg (2016) argue that human lifespan is limited. They bas
     dat2 <- dat
 
     # ---------------- Date of Death ------------------- #
-
+    # set locale if it is not English for correct date conversion
     Sys.setlocale("LC_TIME", 'English')
-
-    ## [1] "English_United States.1252"
-
     dD <- as.character(dat$Died)
     dD <- gsub("Sept.", "September", dD)
     deathDate <- as.Date(as.character(dD),"%b. %d, %Y")
