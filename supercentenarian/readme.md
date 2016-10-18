@@ -1,6 +1,6 @@
 # Evidence of a limit to human lifespan
 
-In a paper that sparked a worldwide media sensation Dong, Milholland and Vijg (2016) claimed that human lifespan is limited. However,
+In a paper that sparked a worldwide media sensation, Dong, Milholland and Vijg (2016) claimed that human lifespan is limited. However,
 the methodology what they used is its best shaky, most likely plainly wrong. First, they looked at annual maximum ages at death but forgot
 to take sample sizes from which they arise into account. A [reanalysis of the data](sample_size.md) shows that ignoring the number of 
 registered supercentenarian deaths is wrong: about 64% of the variation in the maximum ages at death can be explained by the logarithm of
