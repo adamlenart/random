@@ -121,14 +121,16 @@ supercentenarian deaths than the years before 1995.
     gp <- ggplot(data=year_age_count,aes(x=count,y=age,color=post1995))
     gp + geom_point()+scale_y_continuous("Maximum age at death")+scale_x_continuous("Annual number of supercentenarian deaths")
 
-![](figures/age_count.png) The
-plot suggests a logarithmic relationship between maximum age at death
+![](figures/age_count.png) 
+
+The plot suggests a logarithmic relationship between maximum age at death
 and the number of supercentenarian deaths.
 
     gp <- ggplot(data=year_age_count,aes(x=log(count),y=age,color=post1995))
     gp + geom_point()+scale_y_continuous("Maximum age at death")+scale_x_continuous("Logarithm of the annual number of supercentenarian deaths")
 
 ![](figures/age_logcount.png)
+
 Another interesting implication of these plots is that the number of
 registered supercentenarian deaths seemed to level off at 1995 which in
 turn might have created a false impression that the maximum age at death
