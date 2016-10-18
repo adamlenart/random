@@ -302,7 +302,7 @@ maximum age at death of supercentenarians. Dong, Milholland, and Vijg
 (2016) used linear regressions to analyze this data but a re-analysis of
 [Philipp Berens and Tom
 Wallis](https://github.com/philippberens/lifespan) with more appropriate
-extreme value distributions showed the sam effect. However,
+extreme value distributions showed the same effect. However,
 supercentenarians already constitute the extremes of human longevity, we
 might expect the extreme of the extremes be sensitive to random
 variations, especially at limited sample sizes.
