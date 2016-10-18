@@ -1,4 +1,4 @@
-# Evidence of a limit to human lifespan
+# Evidence for a limit to human lifespan?
 
 In a paper that sparked a worldwide media sensation, Dong, Milholland and Vijg (2016) claimed that human lifespan is limited. However,
 the methodology what they used is its best shaky, most likely plainly wrong. First, they looked at annual maximum ages at death but forgot
