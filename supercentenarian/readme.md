@@ -1,5 +1,5 @@
 
-# Robust statistics show no evidence of limit to human lifespan
+# Robust statistics show no evidence of a limit to human lifespan
 
 Dong, Milholland, and Vijg (2016) argue that human lifespan is limited. They base their analysis on supercentenarian data collected by the Gerontology Research Group which can be reached at www.grg.org. First, let's recreate the Dong et al. (2016) data and their analysis. 
 
