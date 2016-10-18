@@ -1,3 +1,5 @@
+# Sample size is log-linearly related to maximum age at death of supercentenarians
+
 Dong, Milholland, and Vijg (2016) argue that supercentenarian ages at
 death show evidence of limit to human lifespan. In their analysis, they
 look at the trend of the maximums and other order statistics (1st to
