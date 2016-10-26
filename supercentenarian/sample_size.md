@@ -251,7 +251,7 @@ yields an *R*<sup>2</sup> value of 0.54 with a difficult to explain
 break point.
 
 Finally, plotting the predicted value of the harmonic sum transformed
-supercentenarian death counts gives a good fit to the data.
+supercentenarian death counts -nls fit in black, ls fit in red- gives a good fit to the data.
 
     lm_pred <- predict(lm_fit,newdata=data.frame(count=1:100))
     # create data sets for plotting      
