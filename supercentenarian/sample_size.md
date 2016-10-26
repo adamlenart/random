@@ -1,3 +1,5 @@
+# Harmonic numbers explain maximum age of human deaths
+
 Dong, Milholland, and Vijg (2016) argue that supercentenarian ages at
 death show evidence of limit to human lifespan. In their analysis, they
 look at the trend of the maximums and other order statistics (1st to
@@ -175,9 +177,11 @@ identically distributed supercentenarian life spans:
  While the maximum of large samples are given by [limit
 theorems](https://en.wikipedia.org/wiki/Generalized_extreme_value_distribution),
 this formula can be used for small samples. Moreover,
+
 $$
 E\[Y\_m|\\lambda,n\_m\] = \\frac{1}{\\lambda}\\sum\_{k=1}^{n\_m}\\frac{1}{k}=\\frac{1}{\\lambda}H\_{n\_m}.
 $$
+
  That is, the expected value of the maximum is a function of the
 [harmonic number](https://en.wikipedia.org/wiki/Harmonic_number),
 *H*<sub>*n*<sub>*m*</sub></sub>.
