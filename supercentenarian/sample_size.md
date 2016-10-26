@@ -176,11 +176,12 @@ identically distributed supercentenarian life spans:
 *E*\[*Y*<sub>*m*</sub>|*λ*, *n*<sub>*m*</sub>\]=∫<sub>0</sub><sup>∞</sup>(1 − exp(−*λ**x*))<sup>*n*<sub>*m*</sub></sup> *d**x* .
  While the maximum of large samples are given by [limit
 theorems](https://en.wikipedia.org/wiki/Generalized_extreme_value_distribution),
-this formula can be used for small samples. Moreover,
+this formula can be used for small samples.  Moreover,
 
-$$
-E\[Y\_m|\\lambda,n\_m\] = \\frac{1}{\\lambda}\\sum\_{k=1}^{n\_m}\\frac{1}{k}=\\frac{1}{\\lambda}H\_{n\_m}.
-$$
+*E*\[*Y*<sub>*m*</sub>|*λ*, *n*<sub>*m*</sub>\]=1/*λ*∑1/*k* = 1/*λ**H*<sub>*n*<sub>*m*</sub></sub> ,
+
+where the summation goes from *k* = 1 to *n*<sub>*m*</sub> (pandoc could not convert it to markdown...).
+
 
  That is, the expected value of the maximum is a function of the
 [harmonic number](https://en.wikipedia.org/wiki/Harmonic_number),
