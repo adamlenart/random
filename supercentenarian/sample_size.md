@@ -198,21 +198,21 @@ where the summation goes from *k* = 1 to *n*<sub>*m*</sub> (pandoc could not con
     ## 0.803291
 
     # LS fit
-    lm_fit <- lm(data=year_age_count,age~I(110+harmonic_sum(count)))
+    lm_fit <- lm(data=year_age_count,age~harmonic_sum(count))
     summary(lm_fit)
 
     ## 
     ## Call:
-    ## lm(formula = age ~ I(110 + harmonic_sum(count)), data = year_age_count)
+    ## lm(formula = age ~ harmonic_sum(count), data = year_age_count)
     ## 
     ## Residuals:
     ##     Min      1Q  Median      3Q     Max 
     ## -1.7816 -0.9973 -0.3434  0.5234  6.9983 
     ## 
     ## Coefficients:
-    ##                              Estimate Std. Error t value Pr(>|t|)    
-    ## (Intercept)                   -33.991     14.349  -2.369   0.0213 *  
-    ## I(110 + harmonic_sum(count))    1.307      0.127  10.289 1.31e-14 ***
+    ##                     Estimate Std. Error t value Pr(>|t|)    
+    ## (Intercept)         109.7671     0.4232  259.37  < 2e-16 ***
+    ## harmonic_sum(count)   1.3069     0.1270   10.29 1.31e-14 ***
     ## ---
     ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
     ## 
