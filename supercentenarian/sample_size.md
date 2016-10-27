@@ -1,4 +1,4 @@
-# Harmonic numbers explain maximum age of human deaths
+# Harmonic numbers explain maximum ages of death
 
 Dong, Milholland, and Vijg (2016) argue that supercentenarian ages at
 death show evidence of limit to human lifespan. In their analysis, they
