@@ -31,7 +31,7 @@ On the day, we started to share our bed with him, and immediately felt an improv
 
 and the number of wake up times decreased by 56%.
 
-![night-wakeups](https://github.com/adamlenart/rstuff/blob/master/baby-sleep/tables/table_wakeups.png)
+![night-wakeups](https://github.com/adamlenart/rstuff/blob/master/baby-sleep/tables/table_wakeups.pdf)
 
 
 
