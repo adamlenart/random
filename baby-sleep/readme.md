@@ -9,16 +9,16 @@ strategies recommended by experts on infant sleep. To measure the
 efficiency of these strategies, we decided to record his sleeping times, and implemented them in an interrupted time series
 design.
 
-![](https://github.com/adamlenart/rstuff/blob/master/baby-sleep/images/sleep.pdf)
+![sleeptime](https://github.com/adamlenart/rstuff/blob/master/baby-sleep/images/sleep.png)
 
 Here I will concentrate only on the impact of co-sleeping on the time
 spent sleeping and awake during the night.
 
- |Statistic| Days |Mean | St. Dev.| Min| Max|
- |---------|------|-----|---------|----|----|
- |night (hours) | 76 | 9.345 | 1.038 | 7.52 | 11.85 |
- |total (hours) | 76 | 13.080 | 1.235 | 9.96 | 15.77 |
- |night wake ups (count) | 76 | 5.947 | 2.343 | 2 | 12|
+|Statistic| Days |Mean | St. Dev.| Min| Max|
+|---------|------|-----|---------|----|----|
+|night (hours) | 76 | 9.345 | 1.038 | 7.52 | 11.85 |
+|total (hours) | 76 | 13.080 | 1.235 | 9.96 | 15.77 |
+|night wake ups (count) | 76 | 5.947 | 2.343 | 2 | 12|
 
 
 After 58 days of trial and error, we still did not see any improvement in his sleeping time as the series did not show either a positive and significant drift or trend term. Moreover, the autocorrelation and partial autocorrelation functions showed that an ARIMA(0,0,0) model, or
@@ -26,12 +26,12 @@ white noise, would provide the best fit to the night time sleep data. Interestin
 
 On the day, we started to share our bed with him, and immediately felt an improvement. This impression was corroborated by the the following 17 days of records which showed that the ratio of hours slept to hours spent awake during the night increased on average 2.33 times
 
-![nightday-table](https://github.com/adamlenart/rstuff/blob/master/baby-sleep/tables/table_nightday.pdf)
+![nightday-table](https://github.com/adamlenart/rstuff/blob/master/baby-sleep/tables/table_nightday.png)
 
 
 and the number of wake up times decreased by 56%.
 
-![night-wakeups](https://github.com/adamlenart/rstuff/blob/master/baby-sleep/tables/table_wakeups.pdf)
+![night-wakeups](https://github.com/adamlenart/rstuff/blob/master/baby-sleep/tables/table_wakeups.png)
 
 
 
