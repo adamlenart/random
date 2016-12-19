@@ -26,12 +26,12 @@ white noise, would provide the best fit to the night time sleep data. Interestin
 
 On the day, we started to share our bed with him, and immediately felt an improvement. This impression was corroborated by the the following 17 days of records which showed that the ratio of hours slept to hours spent awake during the night increased on average 2.33 times
 
-![nightday-table](https://github.com/adamlenart/rstuff/blob/master/baby-sleep/tables/table_nightday.png)
+![nightday-table](/tables/table_nightday.png)
 
 
 and the number of wake up times decreased by 56%.
 
-![night-wakeups](https://github.com/adamlenart/rstuff/blob/master/baby-sleep/tables/table_wakeups.pdf)
+![night-wakeups](/tables/table_wakeups.png)
 
 
 
