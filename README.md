@@ -1,2 +1,2 @@
 # rstuff
-Just some work related stuff that I wrote in R.
+Just some random stuff which is potentially interesting for others as well.
